@@ -1,0 +1,12 @@
+id = "htmldjango-zed"
+name = "Django Template Lang Highlighting in HTML"
+version = "0.0.1"
+schema_version = 1
+authors = ["Matthew Anderson <mja129@pitt.edu>"]
+description = "HTML highlighting for Django template language"
+repository = "https://github.com/mja129/htmldjango-zed"
+languages = ["languages/html"]
+
+[grammars.html]
+repository = "https://github.com/mja129/tree-sitter-htmldjango"
+commit = "390f85607a3f04d1929b54f1e145f3c0f2823583"
