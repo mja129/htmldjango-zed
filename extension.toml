@@ -1,9 +1,9 @@
-id = "htmldjango-zed"
-name = "Django Template Lang Highlighting in HTML"
+id = "my-extension"
+name = "Django template language highlighting in HTML"
 version = "0.0.1"
 schema_version = 1
 authors = ["Matthew Anderson <mja129@pitt.edu>"]
-description = "HTML highlighting for Django template language"
+description = "Mashed together some existing tree-sitter grammars and made them Zed-compatible :)"
 repository = "https://github.com/mja129/htmldjango-zed"
 languages = ["languages/html"]
 
